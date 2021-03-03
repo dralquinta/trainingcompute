@@ -5,10 +5,10 @@
 
 #Including tag generation scripts
 
-generatetag.sh 
-removetag.sh
-promotetomain.sh
-promotetoqa.sh
+generate_tag.sh 
+remove_tag.sh
+promote_to_main.sh
+promote_to_qa.sh
 .terraform.lock.hcl*
 
 # .tfstate files
