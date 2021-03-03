@@ -29,7 +29,6 @@ resource "oci_core_instance" "Compute" {
 
   connection {
     type = "ssh"
-    #host        = oci_core_instance.Compute.*.private_ip
     host        = self.private_ip
     user        = "opc"
     private_key = var.ssh_private_is_path ? file(var.ssh_private_key) : var.ssh_private_key
